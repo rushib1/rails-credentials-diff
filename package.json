@@ -1,0 +1,48 @@
+{
+  "name": "rails-credentials-diff",
+  "displayName": "Rails Credentials Diff",
+  "description": "",
+  "publisher": "RushiBhargav",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "rails-credentials-diff.startDiff",
+        "title": "Diff Credentials"
+      },
+      {
+        "command": "rails-credentials-diff.saveDiff",
+        "title": "Save Credentials Diff"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "yarn run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.88.0",
+    "@vscode/test-cli": "^0.0.8",
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@hyrious/marshal": "^0.3.3",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "js-yaml": "^4.1.0",
+    "marshal": "^0.5.4"
+  }
+}
