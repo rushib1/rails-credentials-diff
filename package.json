@@ -3,7 +3,8 @@
   "displayName": "Rails Credentials Diff",
   "description": "",
   "publisher": "RushiBhargav",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "repository": "https://github.com/rushib1/rails-credentials-diff",
   "engines": {
     "vscode": "^1.88.0"
   },

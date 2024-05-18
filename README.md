@@ -13,10 +13,14 @@ Steps:
 
 3. Run the command `Save Credentials Diff` select the file path where you want to save this diff and enter your `MASTER_KEY` again to complete the process.
 
-![](https://github.com/rushib1/rails-credentials-diff/blob/master/credentials_diff_tutorial.gif)
+![Tutorial](./credentials_diff_tutorial.gif)
 
 ## Release Notes
 ### 0.0.1
 
 Initial release of rails credential diffing.
+
+### 0.0.3
+
+Added visual tutorial to the readme.md
 
